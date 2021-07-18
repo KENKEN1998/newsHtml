@@ -1,0 +1,24 @@
+/* Responsive */
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0% auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: -20px;
+    padding-right: -20px;
+}
+
+.grid__column{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 20%;
+}
